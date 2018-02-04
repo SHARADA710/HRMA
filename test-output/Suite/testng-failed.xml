@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="scripts.ValidLoginExcel">
+        <methods>
+          <include name="testValidLogin1"/>
+        </methods>
+      </class> <!-- scripts.ValidLoginExcel -->
+      <class name="scripts.InvalidLoginExcel">
+        <methods>
+          <include name="testInvalidLogin"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- scripts.InvalidLoginExcel -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
